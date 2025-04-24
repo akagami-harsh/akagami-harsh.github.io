@@ -1,0 +1,70 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Keep package.json but ignore lock files
+# package.json
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+/build/
+/.next/
+/out/
+
+# Keep all files in dist/ and src/ for the portfolio website
+# /dist/
+# /src/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled output
+*.min.js
+*.min.css
+
+# Local development server
+.vercel
+.netlify
